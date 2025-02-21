@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     return config;
   },
   output: "export", // Enables static export
-  basePath: "/your-repo-name", // Replace 'your-repo-name' with your GitHub repository name
+  basePath: "/eefc-nextjs", // Replace 'your-repo-name' with your GitHub repository name
   images: {
     unoptimized: true, // Disables Image Optimization for static export
   },
