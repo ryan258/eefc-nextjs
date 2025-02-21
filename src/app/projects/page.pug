@@ -1,0 +1,68 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title EEFC Projects - Renewable Energy Initiatives
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css')
+  body(class='bg-light text-dark')
+    include ../partials/_navbar.pug
+    
+    // Hero Section
+    .hero-section.text-center.py-5.bg-primary.text-white
+      .container
+        h1.display-4 Our Renewable Energy Projects
+        p.lead Transforming waste into clean energy solutions worldwide.
+    
+    // Project Highlights
+    .container.py-5.text-center
+      h2 Featured Projects
+      .row.mt-4
+        .col-md-4
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary RECA - Arkansas
+            p A large-scale waste-to-energy campus reducing landfill waste and producing renewable fuels.
+            a(href='/projects/reca' class='btn btn-outline-primary mt-2') Learn More
+        .col-md-4
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary Cambodia Solar & Waste-to-Energy
+            p Developing sustainable housing and renewable power for Cambodian communities.
+            a(href='/projects/cambodia' class='btn btn-outline-primary mt-2') Learn More
+        .col-md-4
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary Tires 2 Energy (T2E)
+            p Converting end-of-life tires into valuable energy products with zero waste impact.
+            a(href='/projects/t2e' class='btn btn-outline-primary mt-2') Learn More
+    
+    // Global Impact
+    .container.py-5.text-center
+      h2 Our Global Reach
+      p EEFC operates internationally, developing large-scale renewable energy projects in North America, Asia, and beyond.
+      .row.mt-4
+        .col-md-4
+          .p-4.bg-light.shadow-sm.rounded
+            h4.text-primary 15+ Countries
+            p Active projects driving sustainability worldwide.
+        .col-md-4
+          .p-4.bg-light.shadow-sm.rounded
+            h4.text-primary Multi-Billion Dollar Investments
+            p Partnering with top financial institutions and government agencies.
+        .col-md-4
+          .p-4.bg-light.shadow-sm.rounded
+            h4.text-primary 10+ Major Projects
+            p Developing waste-to-energy, solar, wind, and hydro solutions.
+    
+    // Investment Opportunities
+    .container.py-5.text-center
+      h2 Investment in Renewable Energy
+      p Learn how EEFC secures funding for large-scale projects worldwide.
+      a(href='/financing' class='btn btn-outline-primary mt-3') Explore Financing
+
+    // Call to Action
+    .bg-primary.text-white.text-center.py-5
+      .container
+        h2 Explore Our Projects
+        p Learn more about our cutting-edge renewable energy solutions and how you can get involved.
+        a(href='/contact' class='btn btn-light btn-lg mt-3') Contact Us
+    
+    include ../partials/_footer.pug

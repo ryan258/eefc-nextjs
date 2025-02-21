@@ -1,0 +1,69 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Financing & Investment - EEFC
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css')
+  body(class='bg-light text-dark')
+    include ../partials/_navbar.pug
+    
+    // Hero Section
+    .hero-section.text-center.py-5.bg-primary.text-white
+      .container
+        h1.display-4 Financing & Investment
+        p.lead Unlocking opportunities for sustainable energy funding and global partnerships.
+    
+    // Financing Overview
+    .container.py-5.text-center
+      h2 How We Fund Our Projects
+      p EEFC secures financing through strategic partnerships with banks, hedge funds, and government-backed programs.
+      .row.mt-4
+        .col-md-6
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary Sovereign Guarantees
+            p Leveraging government-backed guarantees to secure project funding.
+        .col-md-6
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary Private Investment
+            p Partnering with private equity firms and institutional investors.
+    
+    // Investment Opportunities
+    .bg-white.py-5.text-center
+      .container
+        h2 Investment Opportunities
+        .row.mt-4
+          .col-md-4
+            .p-4.bg-light.shadow-sm.rounded
+              h4.text-primary Renewable Energy Funds
+              p Investing in large-scale solar, wind, and waste-to-energy projects.
+          .col-md-4
+            .p-4.bg-light.shadow-sm.rounded
+              h4.text-primary Infrastructure Development
+              p Financing industrial-scale sustainability projects.
+          .col-md-4
+            .p-4.bg-light.shadow-sm.rounded
+              h4.text-primary Green Bonds
+              p Funding environmentally friendly initiatives with secure returns.
+    
+    // Economic & Environmental Impact
+    .container.py-5.text-center
+      h2 Financial & Environmental Benefits
+      .row.mt-4
+        .col-md-6
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary Stable ROI
+            p Generating long-term, reliable returns on green energy investments.
+        .col-md-6
+          .p-4.bg-white.shadow-sm.rounded
+            h4.text-primary Sustainability Commitments
+            p Driving global carbon reduction efforts through strategic funding.
+    
+    // Call to Action
+    .bg-primary.text-white.text-center.py-5
+      .container
+        h2 Partner with EEFC
+        p Explore investment opportunities in sustainable energy projects worldwide.
+        a(href='/contact' class='btn btn-light btn-lg mt-3') Contact Us
+    
+    include ../partials/_footer.pug
